@@ -11,7 +11,7 @@ failure for a long time. For a SA, this means making sure your application
 Is the property that enables a system to configure operating properly in the
 event of the failure of one or more of its component. A fault tolerant
 application (in AWS) would be where one of its web server can fail, and still
-server traffic to visitors (and even repair itself).
+server traffic to visitors (and even repair itself i.e auto scaling).
 
 ### Scalability
 
