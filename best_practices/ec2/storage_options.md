@@ -10,7 +10,7 @@
 - EBS volumes have the benefit of being backed up into a snapshot - which can
   later be restored into a new EBS volume.
 
-### EBS Performance
+#### EBS Performance
 
 - EBS volumes measure input/output operations in IOPS:
   - IOPS are input/output operations per second
@@ -26,8 +26,7 @@
   expect. If this is the case, an EBS optimized instance type is required, which
   prioritizes EBS traffic.
 
-
-### Initializing EBS Volumes
+#### Initializing EBS Volumes
 
 - New EBS volumes no longer need to be "pre-warmed"
 - New volumes will receive their maximum performance at the moment they are created.
