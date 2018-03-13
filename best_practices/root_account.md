@@ -1,4 +1,5 @@
 # Root Account
+
 - The user created when you first create your AWS account is called the "root"
   user.
 - It's credentials are the email address and password used when signing up for

@@ -16,7 +16,7 @@
 
 ## Purchasing Options
 
-#### On-Demand
+#### `On-Demand`
 
 On-demand purchasing allows you to choose any instance type you like and provision/terminate it at any time (on-demand).
 
@@ -27,7 +27,7 @@ On-demand purchasing allows you to choose any instance type you like and provisi
   - **Hourly pricing**: Windows, RHEL, and any other AMIs where per second pricing is not indicated.
 - You can provision/terminate an on-demand instance at any time.
 
-#### Reserved
+#### `Reserved`
 
 This purchasing option allows you to purchase an instance for a set time period of one (1) or three (3) years.
 
@@ -37,7 +37,7 @@ This purchasing option allows you to purchase an instance for a set time period 
   and are responsible for the entire price - regardless of how often you
   use it.
 
-#### Spot
+#### `Spot`
 
 Spot pricing is a way for you to "bid" on an instance type, and only pay for and
 use that instance when the spot price is equal to or below your "bid" price.
