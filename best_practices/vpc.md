@@ -42,3 +42,32 @@
   within via the **local** target in the route table.
 - A subnet is located in one specific availability zone, and does not span AZs.
 
+## Network Access Control List
+
+- ACLs operate at the network/subnet level
+- They support ALLOW and DENY rules for traffic traveling into or out of
+  a subnet.
+- They are **stateless**, so return traffic must be allowed through an outbound
+  rule.
+- They process rules in number order when deciding wether to allow traffic.
+- Rules are evaluated in order, starting with the lowest rule number - for
+  example:
+    - If traffic is denied at a lower rule number and allowed at a higher number
+      rule, the allow rule will be ignored and the traffic will be denied.
+- A network access control list (NACL) is an optional layer of security to your
+  VPC that acts as a firewall for controlling traffic in and out of one or more
+  subnets.
+- Best practice is to increment numbers by 10 so if you have to place in a rule
+  in a certain order it does not create an issue.
+
+## Security Groups
+
+- SGs are very similar to NACLs in that they allow/deny traffic
+- However, security groups are security for the instance level (as opposed to
+  the subnet level with ACLs)
+- In addition, the way allow/deny rules work are different with ACLs:
+  - SGs support only allow rules
+  - They are **stateful**, so return traffic requests are allowed regardless of
+    rules.
+  - All rules are evaluated before deciding to allow traffic.
+- Best practice is to allow ONLY traffic that is required.
