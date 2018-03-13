@@ -26,6 +26,26 @@ Instance types describes the "hardware" components that an EC2 instance will run
 As an architect, it's important to use the proper instance type to handle your
 application's workload.
 
+## Shared Responsibility Model
+
+The AWS shared responsibility model describes the responsibility of both parties
+(AWS & you) for managing varying elements of AWS resources.
+
+- The customer (you) is responsible for managing the software level security on instances, including:
+  - Security groups
+  - Firewalls (IP tables, Firewalld, etc)
+  - EBS encryption provided by AWS (snapshots can also use EBS encryption)
+  - Additional encryption methods include encrypting entire file system using an
+    encrypted file system.
+  - Applying an SSL Certificate to the ELB (Elastic Load Balancer)
+
+- AWS is responsible for managing the hypervisor and physical layer of security
+  for EC2:
+  - DDOS protection
+  - Port scanning protection (not allowed even in your own environment without
+    permission from AWS)
+  - Ingress network filtering
+
 ## Important Facts
 
 - A security group must be assigned to an instance during the creation process.
