@@ -39,7 +39,19 @@
 
 ### Storage Gateway
 
-Connects local data center software appliances to cloud based storage such as Amazon S3.
+- Connects local data center software appliances to cloud based storage such as Amazon S3.
+- It does this through the Storage Gateway virtual appliance, which connects
+  directly to your local infrastructure as a file server, a local disk volume,
+  or as a virtual tape library (VTL).
+- It can maintain frequently accessed data on-premises (providing low-latency
+  performance) while storing all other data in:
+  - S3
+  - EBS
+  - Glacier
+- Storage Gateway also integrates your data with:
+  - AWS encryption
+  - Identity Management
+  - Monitoring
 
 ##### Gateway-Cached Volumes
 
