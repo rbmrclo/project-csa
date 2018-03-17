@@ -34,3 +34,12 @@
 - The VPN connection is the actual link between the virtual private gateway and the customer gateway.
 - This connection is setup and managed in AWS.
 - Each connection uses two IPsec tunnels for redundancy.
+
+### Router
+
+- AWS has dispensed with the concept of having users physically setup and manage a "router".
+- However, it is important to understand that route tables are actually part of
+  a "router" assigned to your VPC.
+- When setting up a VPN, the route table (for the subnet you wish to extend)
+  must include routes for the on-premise network that are used by the VPN, and
+  point them to the Virtual Private Gateway.
