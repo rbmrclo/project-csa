@@ -1,4 +1,4 @@
-// Deny access to AWS based on the source IP
+/* Deny access to AWS based on the source IP */
 
 {
   "Version": "2012-10-17",

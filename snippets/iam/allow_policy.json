@@ -1,4 +1,4 @@
-// Allow access within specific dates
+/* Allow access within specific dates */
 
 {
   "Version": "2012-10-17",
@@ -13,7 +13,7 @@
   }
 }
 
-// Allow specific access using MFA within specific dates
+/* Allow specific access using MFA within specific dates */
 
 {
   "Version": "2012-10-17",
