@@ -14,10 +14,17 @@
 - Only one Virtual Private Gateway can be attached to a VPC (just like only one
   IGW can be attached to a VPC).
 - A VPC can have both a VPG and an IGW attached at the same time.
+- Both VPG and a Customer Gateway are required to establish a VPN connection.
 
 ### Virtual Private Gateway
 
-- A Virtual Private Gateway acts as the "connector" on the VPC (AWS) side of the VPN connection.
+- A **Virtual Private Gateway** acts as the "connector" on the VPC (AWS) side of the VPN connection.
 - The VPG is connected to the VPC.
 
-NOTE: Both VPG and a Customer Gateway are required to establish a VPN connection.
+### Customer Gateway
+
+- A **customer gateway** is a physical device or software application at the
+  on-premise location that acts as the "connector" to the VPN connection.
+- In your AWS account, the customer gateway component is where you configure the
+  public IP (internet routable static IP) address of the physical device or
+  software application at the on-premise location.
