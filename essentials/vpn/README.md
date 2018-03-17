@@ -28,3 +28,9 @@
 - In your AWS account, the customer gateway component is where you configure the
   public IP (internet routable static IP) address of the physical device or
   software application at the on-premise location.
+
+### VPN Connection
+
+- The VPN connection is the actual link between the virtual private gateway and the customer gateway.
+- This connection is setup and managed in AWS.
+- Each connection uses two IPsec tunnels for redundancy.
