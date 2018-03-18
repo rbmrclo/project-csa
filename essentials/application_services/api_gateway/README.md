@@ -32,4 +32,3 @@
 - SDK generation for iOS, Android, and JavaScript
 - Supports Swagger (a very popular framework of API dev tools)
 - Request/response data transformation (i.e JSON IN to XML OUT)
-
