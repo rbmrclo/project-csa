@@ -29,6 +29,7 @@
 
 - Ability to cache API responses
 - DDoS protection via CloudFront
+- All CloudFront Edge Locations become entry points for your API into your back-end.
 - SDK generation for iOS, Android, and JavaScript
 - Supports Swagger (a very popular framework of API dev tools)
 - Request/response data transformation (i.e JSON IN to XML OUT)
