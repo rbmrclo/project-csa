@@ -18,13 +18,13 @@
 - Incompatible kernel
 - **How to solve**: Generally a reboot, or solving the file system configuration issue.
 
-By default, CloudWatch will automaticall monitor metrics that can be viewed at
+By default, CloudWatch will automatically monitor metrics that can be viewed at
 the host level (NOT the software level), such as:
 
 - CPUUtilization
-- Network in/out
 - CPUCreditBalance
 - CPUCreditUsage
+- Network in/out
 
 OS level metrics that required a third party script (perl) to be installed (provided by AWS)
 
