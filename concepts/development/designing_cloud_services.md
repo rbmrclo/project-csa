@@ -27,6 +27,8 @@
 - Utilize CloudWatch to monitor infrastructure changes and health.
 - Utilize MultiPartUpload for S3 uploads (for objects over 100MB)
 - Cache static content on Amazon CloudFront using EC2 or S3 Origins.
+
+- Protect your data in transit by using HTTPS/SSL endpoints.
 - Protect your data at rest using encrypted file systems or EBS/S3 encryption options.
 - Connect to instances inside of the VPC using a bastion host or VPN connection.
 - Use IAM roles on EC2 instances instead of using API keys.
