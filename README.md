@@ -1,3 +1,3 @@
 # Project CSA
 
-Cheatsheet and Snippets for AWS cramming
+Notes for AWS cramming.
