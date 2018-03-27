@@ -29,7 +29,7 @@
 - Placement groups cannot be merged together.
 - A placement group cannot span multiple availability zones.
 - Placement group names must be unique within your own AWS account.
-- Plaement groups can be "connected".
+- Placement groups can be "connected".
 - Instances must have 10 gigabit network speeds in order to take advantage of
   placement groups (proper instance type).
 
