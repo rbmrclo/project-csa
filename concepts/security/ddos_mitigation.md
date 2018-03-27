@@ -6,13 +6,13 @@
     - Security groups
     - Network access control lists
     - Host-based firewalls
-  - Web Application Firewalls (WAFS)
+  - Web Application Firewalls (WAF)
   - Host-based or inline IDS/IPS (Trend Micro)
   - Traffic shaping/rate limiting
 
-- Along with your traditional approaches for DOS/DDOS attack mitigation, AWS
+- Along with your traditional approaches for DoS/DDoS attack mitigation, AWS
   provides capabilities based on its elasticity:
-  - You can potentially use CloudFront to absorb DOS/DDOS flooding attacks.
+  - You can potentially use CloudFront to absorb DoS/DDoS flooding attacks.
   - A potential attackers trying to attack content behind a CloudFront
     distribution is likely to send most requests to CloudFront edge locations,
     where the AWS infrastructure will absorb the extra requests with minimal to

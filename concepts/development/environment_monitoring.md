@@ -26,7 +26,7 @@
 ### Use AWS Config for
 
 - Receiving detailed configuration information about an AWS environment.
-- Taking a point in time "snaphot" of all supported AWS resources to determine
+- Taking a point in time "snapshot" of all supported AWS resources to determine
   the state of your environment.
 - Viewing historical configurations within your environment by viewing the "snapshots"
 - Receiving notifications whenever resources are created, modified, or deleted.

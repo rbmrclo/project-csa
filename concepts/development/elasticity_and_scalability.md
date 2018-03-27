@@ -17,7 +17,7 @@
   - All the developer has to do is specify required throughput for the tables.
 
 - RDS requires scaling in a few different ways:
-  - RDS does not support a cluster of instances to laod balance traffic across.
+  - RDS does not support a cluster of instances to load balance traffic across.
   - Because of this, there are few different methods to scale traffic with RDS:
     - Utilize read replicas to offload heavy read only traffic.
     - Increase the instance size to handle increase in load.

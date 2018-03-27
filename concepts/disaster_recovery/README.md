@@ -25,7 +25,7 @@ the business RTO and RPO operational agreement.
 A minimal version of your production environment that is running on AWS. This
 allows for replication from on-premise servers to AWS, and in the event of
 a disaster the AWS environment spins up more capacity (elasticity/automatically)
-and DNS is switched from on-premiuse to AWS. It is important to keep up to date
+and DNS is switched from on-premise to AWS. It is important to keep up to date
 AMI and instance configurations if following pilot light protocol.
 
 ##### Warm Standby
@@ -36,7 +36,7 @@ could also be used as a test area for applications.
 
 ##### Multi-Site Solution
 
-Essentially close your "production" environment, which can either be in the
+Essentially close to your "production" environment, which can either be in the
 cloud or on-premise. Has an active-active configuration, which means instances
 size and capacity are all running in full standby and can easily convert at the
 flip of a switch. Methods like this could be used to "load balance" using
