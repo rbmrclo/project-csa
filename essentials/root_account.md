@@ -7,6 +7,10 @@
 - By default, the root user has FULL administrative rights and access to every
   part of the account.
 
+### Power User Access
+
+- Access to all AWS services except the management of groups and users within IAM.
+
 ### Best practices
 
 - You should not use root user for daily work and AWS administration.
