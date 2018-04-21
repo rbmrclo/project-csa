@@ -1,6 +1,6 @@
 # Simple Storage Service (S3)
 
-An AWS' main storage service, S3 can serve many purposes when designing highly
+An AWS main storage service, S3 can serve many purposes when designing highly
 available, fault tolerant, and secure application architecture. Including:
 
 - Bulk (basically unlimited) static object storage
