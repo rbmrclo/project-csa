@@ -4,7 +4,7 @@
 
 ##### S3 Standard Storage
 
-- 99.99999999999% (eleven nines) durability and 99.99% availability, but is the
+- 99.999999999% (eleven nines) durability and 99.99% availability, but is the
   most expensive.
 
 ##### S3 Reduced Redundancy Storage (RRS)

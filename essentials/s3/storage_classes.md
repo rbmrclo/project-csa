@@ -19,7 +19,7 @@ Each storage class has varying attributes that dictate things like:
 
 - Designed for general, all-purpose storage
 - Is the default storage option
-- 99.99999999999% object durability (eleven nines)
+- 99.999999999% object durability (eleven nines)
 - 99.99% object availability
 - Is the most expensive storage class
 
@@ -34,7 +34,7 @@ Each storage class has varying attributes that dictate things like:
 
 - Designed for objects that you do not frequently access, but must be
   immediately available when accessed.
-- 99.99999999999% object durability
+- 99.999999999% object durability
 - 99.90% object availability
 - Is less expensive than the standard/RRS storage classes
 
@@ -42,5 +42,5 @@ Each storage class has varying attributes that dictate things like:
 
 - Designed for long-term archival storage (not to be used for backups)
 - May take several hours for objects stored in Glacier to be retrieved
-- 99.99999999999% object durability
+- 99.999999999% object durability
 - Is the cheapest S3 storage class (very low cost)
