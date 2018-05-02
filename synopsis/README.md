@@ -1,17 +1,17 @@
 # Synopsis
 
-## Whitepapers
+### Whitepapers
 
 - [AWS Storage Services Overview](https://d0.awsstatic.com/whitepapers/Storage/AWS%20Storage%20Services%20Whitepaper-v9.pdf)
 
-#### S3 Request Rate and Performance Considerations
+### S3 Request Rate and Performance Considerations
 
 - Workloads that include a mix of request types (GET, PUT, DELETE, or GET
   Bucket), choosing appropriate key names for your objects ensures better
   performance by providing low-latency access to the Amazon S3 index. It also
   ensures scalability regardless of the number of requests you send per second.
   - Example 1: Add a **`Hex Hash Prefix`** to Key Name
-  - Example 2: **`Reverse``** the Key Name String
+  - Example 2: **`Reverse`** the Key Name String
 
 - Workloads that are GET-intensive - If the bulk of your workload consists of
   GET requests, we recommend using the Amazon CloudFront content delivery
@@ -26,7 +26,7 @@
 
 - Reference: https://docs.aws.amazon.com/AmazonS3/latest/dev/request-rate-perf-considerations.html
 
-#### S3 Protecting Data Using Server-Side Encryption
+### S3 Protecting Data Using Server-Side Encryption
 
 - Use **Server-Side Encryption with Amazon S3-Managed Keys (SSE-S3)** - each
   object is encrypted with a unique key employing strong multi-factor
