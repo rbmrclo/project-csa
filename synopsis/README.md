@@ -1,8 +1,10 @@
 # Synopsis
 
-### Whitepapers
+## Whitepapers
 
 - [AWS Storage Services Overview](https://d0.awsstatic.com/whitepapers/Storage/AWS%20Storage%20Services%20Whitepaper-v9.pdf)
+- [AWS Elastic Block Store](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AmazonEBS.html)
+
 
 ### S3 Request Rate and Performance Considerations
 
@@ -48,5 +50,3 @@
     yourself, or use a default key that is unique to you, the service you're
     using, and the region you're working in.
   - Ref: https://docs.aws.amazon.com/AmazonS3/latest/dev/UsingKMSEncryption.html
-
-
