@@ -5,7 +5,7 @@ Current Storage Class types include:
 
 - Standard
 - Reduced Redundancy Storage (RRS)
-- Infrequent Access (S3 IAM)
+- Infrequent Access (S3 IA)
 - Glacier
 
 Each storage class has varying attributes that dictate things like:
@@ -14,6 +14,13 @@ Each storage class has varying attributes that dictate things like:
 - Object availability
 - Object durability
 - Frequency of access (to the object)
+
+| Storage Class | Durability | Availability |
+| ------------- | ---------- | ------------ |
+| Standard (S3) | 99.999999999% | 99.99% |
+| Reduced Redundance (RRS) | 99.99% | 99.99% |
+| Infrequent Access (IA) | 99.999999999% | 99.90% |
+| One-Zone Infrequent (OZ-IA) | 99.999999999% | 99.5% (Single AZ) |
 
 #### Standard
 
