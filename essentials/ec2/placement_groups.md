@@ -9,6 +9,11 @@
 - Instances that are in the placement group need to have enhanced networking in
   order to maximize placement groups.
 
+#### Types
+
+- Clustered Placement Group
+- Spread Placement Group
+
 #### Troubleshooting Placement Groups
 
 - If an instance in a placement group is stopped, once it is started again it
