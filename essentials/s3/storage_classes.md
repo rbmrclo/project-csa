@@ -18,7 +18,7 @@ Each storage class has varying attributes that dictate things like:
 | Storage Class | Durability | Availability |
 | ------------- | ---------- | ------------ |
 | Standard (S3) | 99.999999999% | 99.99% |
-| Reduced Redundance (RRS) | 99.99% | 99.99% |
+| Reduced Redundancy (RRS) | 99.99% | 99.99% |
 | Infrequent Access (IA) | 99.999999999% | 99.90% |
 | One-Zone Infrequent (OZ-IA) | 99.999999999% | 99.5% (Single AZ) |
 
