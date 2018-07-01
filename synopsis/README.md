@@ -3,7 +3,15 @@
 ## Whitepapers
 
 - [AWS Storage Services Overview](https://d0.awsstatic.com/whitepapers/Storage/AWS%20Storage%20Services%20Whitepaper-v9.pdf)
+
+## Docs
+
 - [AWS Elastic Block Store](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/AmazonEBS.html)
+  - [EBS Volume Types](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/EBSVolumeTypes.html)
+- [AWS ECS Container Instances](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ECS_instances.html)
+  - [Scheduling ECS Tasks](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/scheduling_tasks.html)
+  - [Private Registry Authentication](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/private-auth.html)
+
 
 ### S3 Request Rate and Performance Considerations
 
