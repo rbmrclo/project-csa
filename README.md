@@ -1,6 +1,7 @@
-# Project CSA
+# Project CSAA
 
-Notes for AWS cramming.
+Notes for AWS Solutions Architect - Associate Certification
+
 
 ## Certification
 
