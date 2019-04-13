@@ -5,5 +5,5 @@ Notes for AWS Solutions Architect - Associate Certification
 
 ## Certification
 
-![certificate.png](certificate.png)
+![certificate.png](aws-csaa-certif.png)
 
